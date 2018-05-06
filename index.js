@@ -34,6 +34,7 @@ function viewCart() {
    return ("Your shopping cart is empty.")
    
  }else if(cart.length===1){
+<<<<<<< HEAD
    
    return (`In your cart, you have ${cart[0].itemName} at $${cart[0].itemPrice}.`)
    
@@ -66,6 +67,25 @@ function viewCart() {
  } 
    
    
+=======
+   console.log(cart[0])
+   return (`In your cart, you have ${cart[0].itemName} at ${cart[0].itemPrice}.`)
+   
+ }
+   
+   
+   
+   
+   
+   
+   
+ 
+ 
+ 
+ 
+ 
+ 
+>>>>>>> 8d12db26abd778969fe1397cae45b0507a07761d
 }
 
 
